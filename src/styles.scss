@@ -1,11 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* You can add global styles to this file, and also import other style files */
-body{
+html, body{
   background-color: #d4e1cb !important;
   color: #364134 !important;
-  // font-family: "Montserrat-Medium", sans-serif !important;
-  font-family: 'Montserrat', sans-serif !important;
+  width: 100%;
+  display: block;
+  height: 100%
 }
 div{
   line-height: 30px !important;
