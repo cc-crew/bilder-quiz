@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #d4e1cb !important;
+  color: #364134 !important;
+  // font-family: "Montserrat-Medium", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+div{
+  line-height: 30px !important;
+
+}
+
+//NavBar//
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+  background-color: white !important;
+}
+.nav-link{
+  color: #7da87b !important;
+}
+
+.nav-link.selected{
+  color: #526a44 !important;
+  font-weight: bold !important;
+  // font-style: italic !important;
+  text-decoration: underline !important;
+}
+
+a{
+  color: #6b725b !important;
+  // text-decoration: underline !important;
+}
+
+// NavBar//
+
+
+
