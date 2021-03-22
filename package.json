@@ -4,11 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --deployUrl /bilder-quiz/ ---baseHref /bilder-quiz/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "gh-pages -d dist/bilder-quiz"
   },
+  "homepage": "https://cc-crew.github.io/bilder-quiz/",
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.4",

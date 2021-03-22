@@ -1,6 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
-/* You can add global styles to this file, and also import other style files */
 html, body{
   background-color: #d4e1cb !important;
   color: #364134 !important;
@@ -15,18 +13,24 @@ div{
 
 //NavBar//
 
-.navbar.navbar-expand-lg.navbar-light.bg-light{
-  background-color: white !important;
+nav{
+  .navbar.navbar-expand-lg.navbar-dark.bg-light{
+    background-color: black !important;
+
+  }
 }
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+}
+
 .nav-link{
   color: #7da87b !important;
 }
 
 .nav-link.selected{
-  color: #526a44 !important;
+  color: #d4e1cb !important;
   font-weight: bold !important;
   // font-style: italic !important;
-  text-decoration: underline !important;
+  // text-decoration: underline !important;
 }
 
 a{
