@@ -11,7 +11,7 @@ import {LinkToPfdComponent} from "./link-to-pfd/link-to-pfd.component";
 import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: '/homr'},
+  {path: '', pathMatch: 'full', redirectTo: '/home'},
   {path: 'home', component: HomeComponent},
   {path: 'dayOne', component: DayOneComponent},
   {path: 'dayTwo', component: DayTwoComponent},

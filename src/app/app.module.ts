@@ -13,6 +13,7 @@ import { DaySevenComponent } from './day-seven/day-seven.component';
 import { LinkToPfdComponent } from './link-to-pfd/link-to-pfd.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
+import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     NgbModule,
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
